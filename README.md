@@ -20,6 +20,7 @@ Navigate to the hosted web interface, select a skin condition and its parameters
 
 ### Current State:
 - Figured out how to train a Diffusion Model on custom data using a simple Unet : [Notebook](https://github.com/parthasarathydNU/gen-ai-coursework/blob/main/diffusion/diffusers.ipynb)
+- Trained a simple model and uploaded it on HuggingFace : [DhruvParth/sd-class-skinrash-64](https://huggingface.co/DhruvParth/sd-class-skinrash-64)
 
 ### Contributing
 
