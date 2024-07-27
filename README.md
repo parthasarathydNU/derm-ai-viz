@@ -27,18 +27,18 @@ DermAI-Viz is a pioneering platform that utilizes deep learning to simulate the 
 - **Python**: Built using Python with libraries such as TensorFlow and PyTorch for model implementation.
 - **Web Interface**: Easy-to-use web interface for interacting with the model outputs.
 
-### Usage
-
-Navigate to the hosted web interface, select a skin condition and its parameters, and use the model to generate visual progressions and treatment responses.
-
 ### Current State:
 - Figured out how to train a Diffusion Model on custom data using a simple Unet : [Notebook](https://github.com/parthasarathydNU/gen-ai-coursework/blob/main/diffusion/diffusers.ipynb)
 - Trained a simple model and uploaded it on HuggingFace : [DhruvParth/sd-class-skinrash-64](https://huggingface.co/DhruvParth/sd-class-skinrash-64)
 
-### Model Output:
-
+### Model:
+```python
+from diffusers import DDPMPipeline
+image_pipe = DDPMPipeline.from_pretrained("DhruvParth/sd-class-skinrash-64")
+pipeline_output = image_pipe()
+pipeline_output.images[0]
+```
 ![GIF-2024-07-27-09-30-26](https://github.com/user-attachments/assets/92ad5640-540d-47ff-aeb3-54153bd8f583)
-
 
 ### Contributing
 
