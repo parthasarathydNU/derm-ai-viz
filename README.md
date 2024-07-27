@@ -2,6 +2,9 @@
 
 DermAI-Viz is a pioneering platform that utilizes deep learning to simulate the progression and treatment outcomes of various skin conditions. By generating realistic images of skin rashes, this tool aids dermatologists in diagnosis and treatment planning, and serves as an educational resource for medical students.
 
+![GIF-2024-07-27-09-30-26](https://github.com/user-attachments/assets/55a51acb-ff1b-4b11-b4df-59379d25aaac)
+
+
 ### Features
 
 - **Visualize Skin Conditions**: Generates images showing the progression of skin conditions over time.
@@ -21,6 +24,11 @@ Navigate to the hosted web interface, select a skin condition and its parameters
 ### Current State:
 - Figured out how to train a Diffusion Model on custom data using a simple Unet : [Notebook](https://github.com/parthasarathydNU/gen-ai-coursework/blob/main/diffusion/diffusers.ipynb)
 - Trained a simple model and uploaded it on HuggingFace : [DhruvParth/sd-class-skinrash-64](https://huggingface.co/DhruvParth/sd-class-skinrash-64)
+
+### Model Output:
+
+![GIF-2024-07-27-09-30-26](https://github.com/user-attachments/assets/92ad5640-540d-47ff-aeb3-54153bd8f583)
+
 
 ### Contributing
 
