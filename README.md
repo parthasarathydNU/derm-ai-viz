@@ -18,6 +18,9 @@ DermAI-Viz is a pioneering platform that utilizes deep learning to simulate the 
 
 Navigate to the hosted web interface, select a skin condition and its parameters, and use the model to generate visual progressions and treatment responses.
 
+### Current State:
+- Figured out how to train a Diffusion Model on custom data using a simple Unet : [Notebook](https://github.com/parthasarathydNU/gen-ai-coursework/blob/main/diffusion/diffusers.ipynb)
+
 ### Contributing
 
 We welcome contributions from the community, including feature enhancements, bug fixes, and documentation improvements. Please fork the repository, make your changes, and submit a pull request.
