@@ -30,13 +30,14 @@ DermAI-Viz is a pioneering platform that utilizes deep learning to simulate the 
 ### Current State:
 - Figured out how to train a Diffusion Model on custom data using a simple Unet : [Notebook](https://github.com/parthasarathydNU/gen-ai-coursework/blob/main/diffusion/diffusers.ipynb)
 - Trained a simple model and uploaded it on HuggingFace : [DhruvParth/sd-class-skinrash-64](https://huggingface.co/DhruvParth/sd-class-skinrash-64)
+- Trained V2 Model : [DhruvParth/ddpm-celebahq-256-fineTuned-skin_rash_v2_12epochs](https://huggingface.co/DhruvParth/ddpm-celebahq-256-fineTuned-skin_rash_v2_12epochs)
 
 ### Model:
 ```python
 from diffusers import DDPMPipeline
-image_pipe = DDPMPipeline.from_pretrained("DhruvParth/sd-class-skinrash-64")
-pipeline_output = image_pipe()
-pipeline_output.images[0]
+pipeline = DDPMPipeline.from_pretrained('DhruvParth/ddpm-celebahq-256-fineTuned-skin_rash_v2_12epochs')
+image = pipeline().images[0]
+image
 ```
 ![GIF-2024-07-27-09-30-26](https://github.com/user-attachments/assets/92ad5640-540d-47ff-aeb3-54153bd8f583)
 
