@@ -28,9 +28,10 @@ DermAI-Viz is a pioneering platform that utilizes deep learning to simulate the 
 - **Web Interface**: Easy-to-use web interface for interacting with the model outputs.
 
 ### Current State:
-- Figured out how to train a Diffusion Model on custom data using a simple Unet : [Notebook](https://github.com/parthasarathydNU/gen-ai-coursework/blob/main/diffusion/diffusers.ipynb)
-- Trained a simple model and uploaded it on HuggingFace : [DhruvParth/sd-class-skinrash-64](https://huggingface.co/DhruvParth/sd-class-skinrash-64)
-- Trained V2 Model : [DhruvParth/ddpm-celebahq-256-fineTuned-skin_rash_v2_12epochs](https://huggingface.co/DhruvParth/ddpm-celebahq-256-fineTuned-skin_rash_v2_12epochs)
+- ~~Figured out how to train a Diffusion Model on custom data using a simple Unet : [Notebook](https://github.com/parthasarathydNU/gen-ai-coursework/blob/main/diffusion/diffusers.ipynb)~~
+- ~~Trained a simple model and uploaded it on HuggingFace : [DhruvParth/sd-class-skinrash-64](https://huggingface.co/DhruvParth/sd-class-skinrash-64)~~
+- ~~Trained V2 Model : [DhruvParth/ddpm-celebahq-256-fineTuned-skin_rash_v2_12epochs](https://huggingface.co/DhruvParth/ddpm-celebahq-256-fineTuned-skin_rash_v2_12epochs)~~
+- Explored Guidance using the CLIP model from OpenAI to generate rash images from text based prompt: [Notebook](https://github.com/parthasarathydNU/derm-ai-viz/blob/main/notebooks/guidance.ipynb)
 
 ### Model:
 ```python
