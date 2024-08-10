@@ -32,7 +32,7 @@ DermAI-Viz is a pioneering platform that utilizes deep learning to simulate the 
 - Trained a simple model and uploaded it on HuggingFace : [DhruvParth/sd-class-skinrash-64](https://huggingface.co/DhruvParth/sd-class-skinrash-64)
 - Trained V2 Model : [DhruvParth/ddpm-celebahq-256-fineTuned-skin_rash_v2_12epochs](https://huggingface.co/DhruvParth/ddpm-celebahq-256-fineTuned-skin_rash_v2_12epochs)
 - Explored Guidance using the CLIP model from OpenAI to generate rash images from text based prompt: [Notebook](https://github.com/parthasarathydNU/derm-ai-viz/blob/main/notebooks/guidance.ipynb)
-- Fine Tuned a CLIP model to learn to match Text caption to images: [finetuningclip.ipynb](https://github.com/parthasarathydNU/derm-ai-viz/blob/main/notebooks/finetuningclip.ipynb) [DhruvParth/openai-clip-vit-base-patch32-skinRash-FineTuned](https://huggingface.co/DhruvParth/openai-clip-vit-base-patch32-skinRash-FineTuned) [Reference Article](https://huggingface.co/blog/herooooooooo/clip-finetune)
+- Fine Tuned a CLIP model to learn to match Text caption to images: [finetuningclip.ipynb](https://github.com/parthasarathydNU/derm-ai-viz/blob/main/notebooks/finetuningclip.ipynb) | [DhruvParth/openai-clip-vit-base-patch32-skinRash-FineTuned](https://huggingface.co/DhruvParth/openai-clip-vit-base-patch32-skinRash-FineTuned) | [Reference Article](https://huggingface.co/blog/herooooooooo/clip-finetune)
 
 ![Screenshot 2024-08-10 at 1 56 09 AM](https://github.com/user-attachments/assets/434d93c0-560e-4ddd-926f-0579957c0785)
 
