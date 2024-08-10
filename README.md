@@ -38,6 +38,7 @@ DermAI-Viz is a pioneering platform that utilizes deep learning to simulate the 
 
 
 ### Next Steps: 
+- Understand training and validation characteristics and figure out if we can train the CLIP model Better
 - Further fine tuning the Diffusion model for additional epochs
 - Test the pipeline by generating images based on captions
 
